@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539554155160",
+    "project_id": "lavapp-b2149",
+    "storage_bucket": "lavapp-b2149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539554155160:android:65af389f2b7dfd4be29eed",
+        "android_client_info": {
+          "package_name": "com.example.lavapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539554155160-mju3pvntg7fofi60cg608rtiuvclpm82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI449GotJGL4q3rdI3z80CvscyfKUuap4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539554155160-mju3pvntg7fofi60cg608rtiuvclpm82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

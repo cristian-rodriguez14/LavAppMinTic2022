@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.21574074074074073" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21203703703703702" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout-es-rCO/card_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.26666666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/activity_login2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/activity_prueba.xml" value="0.22" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/activity_welcome.xml" value="0.19010416666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/add_new_dato.xml" value="0.5" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_cliente.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_layout.xml" value="0.33" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_orden.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_pet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_prenda.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_seleccion.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/card_servicio.xml" value="0.22" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_cliente.xml" value="0.33" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_first.xml" value="0.22" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_first_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_form_cliente.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_form_orden.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_form_prenda.xml" value="0.22" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_form_servicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_list_clientes.xml" value="0.19010416666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_list_precios.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_list_prendas.xml" value="0.19010416666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_list_servicios.xml" value="0.19010416666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_listado_precios.xml" value="0.1" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_login.xml" value="0.18425925925925926" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_maps.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_orden.xml" value="0.1" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_prenda.xml" value="0.2" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_service.xml" value="0.22" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/lista_precios.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/login_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/login_fragment.xml" value="0.25" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/mail_layout.xml" value="0.1" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/prueba.xml" value="0.13541666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/row_list_client.xml" value="0.33" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/row_list_clothe.xml" value="0.5" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/row_list_data.xml" value="0.5" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/row_list_price.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/row_list_service.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/row_list_servicio.xml" value="0.22" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/layout/scroll_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/menu/bottom_menu.xml" value="0.5" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/menu/menu_pie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/menu/menu_prueba.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/menu/side_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21203703703703702" />
+        <entry key="..\:/Usuarios/Cristian/MinTic2022/UIS/Movil/Proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21203703703703702" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

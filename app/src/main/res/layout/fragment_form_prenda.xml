@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_prenda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context=".fragment.forms.FormPrendaFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/container_prenda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/form_prenda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lbl_title_prenda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prenda_seleccion"
+                android:textColor="#004D40"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/formulario_prenda"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/formulario_prenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/btn_guardar_prenda"
+                app:layout_constraintEnd_toEndOf="@+id/btn_guardar_prenda"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_title_prenda">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_txt_caracteristica"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_caracteristica_prenda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/buscar_prenda" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_search_prenda"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_buscar_precio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/buscar_prenda" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_precios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_cantidad_prendas"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_cantidad_prendas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/cantidad" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_descripcion_prenda"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_descripcion_prenda"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:hint="@string/descripcion_prenda" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_guardar_prenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/guardar_prendas"
+                android:textColor="#263238"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/formulario_prenda" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

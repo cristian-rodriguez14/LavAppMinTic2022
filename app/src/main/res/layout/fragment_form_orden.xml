@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_orden"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context=".fragment.forms.FormOrdenFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/container_orden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/form_orden"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/lbl_title_orden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orden_seleccion"
+                android:textColor="#004D40"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/formulario_orden"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/formulario_orden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/btn_guardar_orden"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_title_orden">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_search_cliente"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_buscar_cliente"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/buscar_cliente" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_clientes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/boton_nuevo_cliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nuevo_cliente"
+                    android:visibility="gone"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_search_servicio"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_buscar_servicio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/buscar_servicio" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_servicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/form_add_prenda"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_desc_orden"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/descripcion_orden" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_prendas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/boton_nueva_prenda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nueva_prenda"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textAutoComplete">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_fecha_entrega"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:hint="@string/fecha_de_entrega" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txt_cost_orden"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:hint="@string/valor_del_servicio"
+                    android:inputType="textAutoComplete" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_guardar_orden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guardar_orden"
+                android:textColor="#263238"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/formulario_orden" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</FrameLayout>

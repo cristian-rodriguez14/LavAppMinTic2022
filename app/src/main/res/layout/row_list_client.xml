@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal">
+
+        <TextView
+            android:id="@+id/ver_email_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:textSize="10dp"
+            android:text="Hola  "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ver_celular_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ver_email_cliente"
+            android:textSize="10dp"
+            android:text="  bienvenido"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ver_nombre_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ver_email_cliente"
+            android:textSize="20dp"
+            android:text="Adios  "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ver_apellido_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ver_celular_cliente"
+            android:layout_toRightOf="@id/ver_nombre_cliente"
+            android:textSize="20dp"
+            android:text="  Sayonara"
+            android:textColor="@color/black"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

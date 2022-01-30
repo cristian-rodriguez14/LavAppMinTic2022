@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/firstViewFragment">
+    <fragment
+        android:id="@+id/firstViewFragment"
+        android:name="com.example.lavapp.fragment.FirstViewFragment"
+        android:label="fragment_first_view"
+        tools:layout="@layout/fragment_first_view" />
+    <fragment
+        android:id="@+id/form_servicio"
+        android:name="com.example.lavapp.fragment.forms.FormServicioFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_form_servicio" >
+        <action
+            android:id="@+id/from_servicio_to_home"
+            app:destination="@id/firstViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.example.lavapp.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/form_orden"
+        android:name="com.example.lavapp.fragment.forms.FormOrdenFragment"
+        android:label="fragment_orden"
+        tools:layout="@layout/fragment_form_orden" >
+        <action
+            android:id="@+id/from_orden_to_cliente"
+            app:destination="@id/form_cliente" />
+        <action
+            android:id="@+id/from_orden_to_home"
+            app:destination="@id/firstViewFragment" />
+        <action
+            android:id="@+id/from_orden_to_prenda"
+            app:destination="@id/form_prenda" />
+    </fragment>
+    <fragment
+        android:id="@+id/form_cliente"
+        android:name="com.example.lavapp.fragment.forms.FormClienteFragment"
+        android:label="fragment_orden"
+        tools:layout="@layout/fragment_form_cliente" >
+        <action
+            android:id="@+id/from_cliente_to_orden"
+            app:destination="@id/form_orden" />
+    </fragment>
+    <fragment
+        android:id="@+id/form_prenda"
+        android:name="com.example.lavapp.fragment.forms.FormPrendaFragment"
+        android:label="@string/listado_de_prendas"
+        tools:layout="@layout/fragment_form_prenda" >
+        <action
+            android:id="@+id/from_prenda_to_orden"
+            app:destination="@id/form_orden" />
+    </fragment>
+    <activity
+        android:id="@+id/welcomeActivity"
+        android:name="com.example.lavapp.WelcomeActivity"
+        android:label="activity_welcome"
+        tools:layout="@layout/activity_welcome" />
+</navigation>

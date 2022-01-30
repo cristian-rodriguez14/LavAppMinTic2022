@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/teal"
+    tools:context=".PruebaActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_recibe_servicio"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"
+            android:hint="@string/nombre_de_quien_recibe" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_direccion_servicio"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="textAutoComplete"
+            android:ems="10"
+            android:paddingTop="15dp"
+            android:hint="@string/direccion" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ciudad">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_ciudad_servicio"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="textAutoComplete"
+            android:paddingTop="15dp"
+            android:hint="@string/ciudad" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Barrio">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_barrio_servicio"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textAutoCorrect"
+            android:paddingTop="15dp"
+            android:hint="@string/barrio" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/lbl_title_servicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/listado_de_servicios"
+        android:textColor="#004D40"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/vista_temp_servicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
